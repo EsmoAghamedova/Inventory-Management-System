@@ -1,0 +1,38 @@
+:root {
+  /* Brand Colors */
+  --brand-primary: #4338ca;
+  --brand-hover: #3730a3;
+  --brand-light: #e0e7ff;
+  
+  /* Layout & Backgrounds */
+  --bg-main: #ffffff;
+  --bg-sidebar: #f8fafc;
+  --bg-card: #ffffff;
+  
+  /* Text */
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  
+  /* Status Indicators */
+  --status-success: #10b981;
+  --status-warning: #f59e0b;
+  --status-danger: #ef4444;
+  
+  /* Borders & Shadows */
+  --border-subtle: #b5b8bd;
+  --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  
+  /* Sizing */
+  --radius-md: 8px;
+
+  /* spaceing */
+  --space-sm: 8px;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+}
+
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
