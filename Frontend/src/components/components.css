@@ -68,14 +68,12 @@ body{
     box-sizing: border-box;
     color: #334155;
     text-decoration: none;
-    border-left: 4px solid transparent;
-    border-radius: 8px;
+    border: 1px solid var(--border-subtle);
 }
 
 .side-bar-link.active {
     color: #3024c9;
-    background-color: #ded9f8;
-    border-left-color: #3d2bd4;
+    background-color: #d8d3eca6;
 }
 
 .Display-and-SideBar-Wrapper{
