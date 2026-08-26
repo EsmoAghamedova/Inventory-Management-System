@@ -91,3 +91,41 @@ body{
     padding: var(--space-sm);
      overflow: scroll;
 }
+
+.stat-card{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 150px;
+    max-width: 300px;
+    padding: var(--space-sm);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-bg);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.stat-card .stat-title{
+    color: var(--text-secondary);
+}
+
+
+.stat-card .stat-amount{
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.growth{
+    color: var(--status-success);
+}
+
+.display{
+  max-width: 1240px;
+  padding: 2rem 2rem;
+  padding: var(--space-bg);
+  color: var(--text-primary);
+
+}

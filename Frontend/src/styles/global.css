@@ -24,6 +24,8 @@
   
   /* Sizing */
   --radius-md: 8px;
+  --radius-sm: 5px;
+  --radius-bg: 1rem;
 
   /* spaceing */
   --space-sm: 8px;
@@ -35,4 +37,23 @@
     font-family: sans-serif;
     padding: 0;
     margin: 0;
+}
+
+body{
+  padding: 1rem;
+}
+
+
+.page-head {
+  margin-bottom: var(--space-md);
+}
+
+.page-head h2 {
+  font-size: 1.45rem;
+  margin-bottom: 6px;
+}
+
+.page-head p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
 }

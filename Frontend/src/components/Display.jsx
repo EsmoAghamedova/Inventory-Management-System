@@ -9,7 +9,7 @@ const Display = () => {
       <NavBarDashboard />
       <section className="Display-and-SideBar-Wrapper">
         <SideBar />
-        <main className="Display Outlet Main">
+        <main className="Display " style={{ padding: "1.3rem" }}>
           <Outlet />
         </main>
       </section>
